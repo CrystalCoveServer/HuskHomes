@@ -51,7 +51,7 @@ public class TpRespondCommand extends InGameCommand implements UserListTabComple
             plugin.getManager().requests().respondToTeleportRequestBySenderName(executor, requesterName.get(), accept);
             return;
         }
-        plugin.getManager().requests().respondToTeleportRequest(executor, accept);
+        //plugin.getManager().requests().respondToTeleportRequest(executor, accept);
     }
 
 }
